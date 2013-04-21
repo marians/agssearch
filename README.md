@@ -13,7 +13,7 @@ Python client for the German Destatis [Gemeindeverzeichnis](https://www.destatis
     >>> import agssearch.agssearch as ags
     >>> result = ags.search("Bonn")
     >>> for r in result:
-    >>>     print r['ags'], r[name]
+    >>>     print r['ags'], r['name']
 
     05314000 Stadt Bonn
     08337022 VVG der Stadt Bonndorf im Schwarzwald
