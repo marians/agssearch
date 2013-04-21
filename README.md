@@ -1,9 +1,9 @@
 agssearch
 =========
 
-Python client for the German Destatis Gemeindeverzeichnis. Allows you to find the "Amtlicher Gemeindeschlüssel" for a location.
+Python client for the German Destatis [Gemeindeverzeichnis](https://www.destatis.de/gv/). Allows you to find the "Amtlicher Gemeindeschlüssel" for a location.
 
-## Instal
+## Install
 
     pip install agssearch
 
