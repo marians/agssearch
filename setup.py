@@ -3,9 +3,13 @@
 from distutils.core import setup
 
 setup(name='agssearch',
-      version='0.1',
+      version='0.3',
       description='Python client for the German Destatis Gemeindeverzeichnis',
       author='Marian Steinbach',
       author_email='marian@sendung.de',
       url='https://github.com/marians/agssearch',
-      packages=['agssearch'])
+      packages=['agssearch'],
+      requires=[
+          'lxml',
+          'mechanize'
+      ])
