@@ -100,7 +100,7 @@ def is_valid_ags(string):
     return True
 
 
-if __name__ == '__main__':
+def main():
     import argparse
     parser = argparse.ArgumentParser(
         description='Search for a location')
@@ -119,3 +119,6 @@ if __name__ == '__main__':
         res = search(args.searchterm)
         for r in res:
             print "[%s] %s, %s, %s" % (r['ags'], r['name'], r['county'], r['state'])
+
+if __name__ == '__main__':
+    main()

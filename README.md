@@ -37,12 +37,12 @@ Note that the AGS is still in common use, but to be replaced by the "Regionalsch
 
 ## Use as command line client
 
-    python -m agssearch.agssearch Bonn
+    agssearch Bonn
     [05314000] Stadt Bonn, Bonn, Stadt, Nordrhein-Westfalen
     [08337022] VVG der Stadt Bonndorf im Schwarzwald, Waldshut, Baden-Württemberg
     [08337022] Stadt Bonndorf im Schwarzwald, Waldshut, Baden-Württemberg
 
-    python -m agssearch.agssearch 05314000
+    agssearch 05314000
     [05314000] Stadt Bonn, Bonn, Stadt, Nordrhein-Westfalen
 
 ## Like agssearch?
