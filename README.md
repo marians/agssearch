@@ -13,27 +13,27 @@ Note that the AGS is still in common use, but to be replaced by the "Regionalsch
 
 ### Finding the AGS for a city:
 
-	```python
-	>>> import agssearch.agssearch as ags
-	>>> result = ags.search("Bonn")
-	>>> for r in result:
-	>>>     print r['ags'], r['name']
+```python
+>>> import agssearch.agssearch as ags
+>>> result = ags.search("Bonn")
+>>> for r in result:
+>>>     print r['ags'], r['name']
 
-	05314000 Stadt Bonn
-	08337022 VVG der Stadt Bonndorf im Schwarzwald
-	08337022 Stadt Bonndorf im Schwarzwald
-	```
+05314000 Stadt Bonn
+08337022 VVG der Stadt Bonndorf im Schwarzwald
+08337022 Stadt Bonndorf im Schwarzwald
+```
 
 ### Look up an AGS:
 
-	```python
-	>>> import agssearch.agssearch as ags
-	>>> result = ags.lookup("05314000")
-	>>> if result is not None:
-	>>>     print result['ags'], result['name']
+```python
+>>> import agssearch.agssearch as ags
+>>> result = ags.lookup("05314000")
+>>> if result is not None:
+>>>     print result['ags'], result['name']
 
-	05314000 Stadt Bonn
-	```
+05314000 Stadt Bonn
+```
 
 ## Use as command line client
 
