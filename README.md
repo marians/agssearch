@@ -1,9 +1,9 @@
 agssearch
 =========
 
-Python client for the official German directory of cities by DeStatis, called "[Gemeindeverzeichnis](https://www.destatis.de/gv/)". Allows you to look up the official city key ("Amtlicher Gemeindeschlüssel", in brief: AGS) for a city name and vice versa.
+Python client for the official German directory of cities by DeStatis, called "[Gemeindeverzeichnis](https://www.destatis.de/gv/)". Allows you to look up the official city key ("Amtlicher Gemeindeschluessel", in brief: AGS) for a city name and vice versa.
 
-Note that the AGS is still in common use, but to be replaced by the "Regionalschlüssel" (RS). Read more in the German Wikipedia page [Amtlicher Gemeindeschlüssel](http://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel).
+Note that the AGS is still in common use, but to be replaced by the "Regionalschluessel" (RS). Read more in the German Wikipedia page [Amtlicher Gemeindeschluessel](http://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel).
 
 ## Install
 
@@ -37,12 +37,12 @@ Note that the AGS is still in common use, but to be replaced by the "Regionalsch
 
 ## Use as command line client
 
-    agssearch Bonn
+    $ agssearch Bonn
     [05314000] Stadt Bonn, Bonn, Stadt, Nordrhein-Westfalen
-    [08337022] VVG der Stadt Bonndorf im Schwarzwald, Waldshut, Baden-Württemberg
-    [08337022] Stadt Bonndorf im Schwarzwald, Waldshut, Baden-Württemberg
+    [08337022] VVG der Stadt Bonndorf im Schwarzwald, Waldshut, Baden-Wuerttemberg
+    [08337022] Stadt Bonndorf im Schwarzwald, Waldshut, Baden-Wuerttemberg
 
-    agssearch 05314000
+    $ agssearch 05314000
     [05314000] Stadt Bonn, Bonn, Stadt, Nordrhein-Westfalen
 
 ## Like agssearch?
